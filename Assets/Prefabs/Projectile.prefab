@@ -146,5 +146,6 @@ MonoBehaviour:
   syncMode: 0
   syncInterval: 0.1
   rb: {fileID: 4811368470753017896}
+  damageToDeal: 20
   destroyAfterSeconds: 5
   launchForce: 10
