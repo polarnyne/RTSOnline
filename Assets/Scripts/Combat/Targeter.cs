@@ -1,18 +1,30 @@
 using System.Collections;
 using System.Collections.Generic;
+using Mirror;
 using UnityEngine;
 
-public class Targeter : MonoBehaviour
+public class Targeter : NetworkBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
+    [SerializeField] private Targetable target;
+
+    #region Server
+
+    [Command]
+    public void CmdSetTarget(GameObject targetGameObject) 
     {
-        
+        if(!targetGameObject.TryGetComponent<Targetable>(out Targetable newTarget)) { return; }
+
+        target = newTarget;
     }
 
-    // Update is called once per frame
-    void Update()
+    [Server]
+    public void ClearTarget() 
     {
-        
+        target = null;
     }
+
+    #endregion
+
+    #region Client
+    #endregion
 }
