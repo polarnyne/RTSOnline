@@ -15,7 +15,6 @@ public class Health : NetworkBehaviour
 
     public event Action<int, int> ClientOnHealthUpdated;
 
-
     #region Server
 
     public override void OnStartServer()
