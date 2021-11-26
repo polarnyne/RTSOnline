@@ -22,11 +22,13 @@ public class UnitSelectionHandler : NetworkBehaviour
         mainCamera = Camera.main;
 
         Unit.AuthorityOnUnitDespawned += AuthorityHandleUnitDespawned;
+        GameOverHandler.ClientOnGameOver += ClientHandleGameOver;
     }
 
     private void OnDestroy() 
     {
-        Unit.AuthorityOnUnitDespawned += AuthorityHandleUnitDespawned;
+        Unit.AuthorityOnUnitDespawned -= AuthorityHandleUnitDespawned;
+        GameOverHandler.ClientOnGameOver -= ClientHandleGameOver;
     }
 
     private void Update()
@@ -125,5 +127,10 @@ public class UnitSelectionHandler : NetworkBehaviour
     private void AuthorityHandleUnitDespawned(Unit unit) 
     {
         SelectedUnits.Remove(unit);
+    }
+
+    private void ClientHandleGameOver(string winnerName) 
+    {
+        enabled = false;
     }
 }
