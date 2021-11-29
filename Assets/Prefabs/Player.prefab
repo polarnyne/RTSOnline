@@ -132,11 +132,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   syncMode: 0
   syncInterval: 0.1
+  cameraTransform: {fileID: 701175398272195365}
   buildingBlockLayer:
     serializedVersion: 2
     m_Bits: 321
   buildings:
-  - {fileID: 7206139244054376269, guid: eb3e1876739e99c47a1724aa00f01869, type: 3}
+  - {fileID: 3420459955109326268, guid: 747d40c64baf3954b853072c394a5b19, type: 3}
   - {fileID: 7206139244054376269, guid: 88dbdd3872f02354e8cf021c1d84d6cb, type: 3}
   buildingRangeLimit: 5
 --- !u!114 &4934336475028405166
