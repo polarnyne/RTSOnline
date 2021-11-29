@@ -198,6 +198,14 @@ PrefabInstance:
       propertyPath: m_AnchoredPosition.y
       value: 1.5
       objectReference: {fileID: 0}
+    - target: {fileID: 5837399645004199457, guid: 882ab97080a889a45b6d624cef2e2800, type: 3}
+      propertyPath: colorRenderers.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5837399645004199457, guid: 882ab97080a889a45b6d624cef2e2800, type: 3}
+      propertyPath: colorRenderers.Array.data[0]
+      value: 
+      objectReference: {fileID: 5818715480766437333}
     - target: {fileID: 5945241325936092801, guid: 882ab97080a889a45b6d624cef2e2800, type: 3}
       propertyPath: m_Center.y
       value: 0
