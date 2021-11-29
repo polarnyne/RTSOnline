@@ -10,7 +10,6 @@ GameObject:
   m_Component:
   - component: {fileID: 222282363243710806}
   - component: {fileID: 7746002703026464403}
-  - component: {fileID: 4144904219298391410}
   - component: {fileID: 5945241325936092801}
   - component: {fileID: 916116527138287665}
   - component: {fileID: 8341812812203029209}
@@ -57,19 +56,6 @@ MonoBehaviour:
   visible: 0
   m_AssetId: 882ab97080a889a45b6d624cef2e2800
   hasSpawned: 0
---- !u!65 &4144904219298391410
-BoxCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 2976548335313713120}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 2
-  m_Size: {x: 1, y: 1, z: 1}
-  m_Center: {x: 0, y: 0, z: 0}
 --- !u!208 &5945241325936092801
 NavMeshObstacle:
   m_ObjectHideFlags: 0

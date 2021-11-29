@@ -14,7 +14,6 @@ public class ResourcesDisplay : MonoBehaviour
     {
         if(player == null) 
         {
-            
             player = NetworkClient.connection.identity.GetComponent<RTSPlayer>();
 
             ClientHandleResourcesUpdated(player.GetResources());
