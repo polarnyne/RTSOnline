@@ -25,7 +25,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 710766070083628288}
   m_LocalRotation: {x: 0.38268343, y: 0, z: 0, w: 0.92387956}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalPosition: {x: 0, y: 18, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 14376384571722107}
@@ -137,8 +137,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 321
   buildings:
-  - {fileID: 3420459955109326268, guid: 747d40c64baf3954b853072c394a5b19, type: 3}
   - {fileID: 7206139244054376269, guid: 88dbdd3872f02354e8cf021c1d84d6cb, type: 3}
+  - {fileID: 3420459955109326268, guid: 747d40c64baf3954b853072c394a5b19, type: 3}
+  - {fileID: 3420459955109326268, guid: ee082914f5d6f8b4c9ddf7c6fb7e0213, type: 3}
   buildingRangeLimit: 5
 --- !u!114 &4934336475028405166
 MonoBehaviour:

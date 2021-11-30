@@ -2038,6 +2038,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: BuildingsDisplay
       objectReference: {fileID: 0}
+    - target: {fileID: 2469233130781932747, guid: 462e29f457ae98f40bcad136e4d1de8a, type: 3}
+      propertyPath: building
+      value: 
+      objectReference: {fileID: 3420459955109326268, guid: ee082914f5d6f8b4c9ddf7c6fb7e0213, type: 3}
     - target: {fileID: 2782771734514687521, guid: 462e29f457ae98f40bcad136e4d1de8a, type: 3}
       propertyPath: building
       value: 
@@ -2544,7 +2548,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1687258581}
   m_LocalRotation: {x: 0.3420201, y: 0, z: 0, w: 0.9396927}
-  m_LocalPosition: {x: 0, y: 10, z: 15}
+  m_LocalPosition: {x: 0, y: 18, z: 15}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
