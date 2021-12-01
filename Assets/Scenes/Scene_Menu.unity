@@ -857,6 +857,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   landingPagePanel: {fileID: 941336196}
+  useSteam: 0
 --- !u!4 &473082828
 Transform:
   m_ObjectHideFlags: 0
